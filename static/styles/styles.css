@@ -2,7 +2,7 @@
 /* 🎨 ESTILO GERAL */
 /* ==================== */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #333;
@@ -11,7 +11,7 @@ body {
 h1 {
   margin: 10px;
   font-size: 22px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -23,16 +23,15 @@ header {
 
 .h1-tittle {
   margin-left: 36px;
+  font-family: 'Inter', sans-serif;
 }
 
 .menu-bar {
-  padding: 8px;
+  padding: 6px;
   background-color: #1a1a1ade;
   display: flex;
   margin: 2px 20px;
-  border-radius: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-radius: 22px;
 }
 
 .menu-buttom {
@@ -44,6 +43,8 @@ header {
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.1s;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .menu-buttom:hover {
@@ -55,11 +56,13 @@ header {
 
 main {
   padding: 2rem;
+  font-family: 'Inter', sans-serif;
 }
 
 a {
   color: #10b981;
   text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
 
 /* ==================== */
@@ -96,6 +99,7 @@ a {
   border-radius: 18px;
   background: rgba(0, 0, 0, 0.185);
   transition: transform 0.3s;
+  font-family: 'Inter', sans-serif;
 }
 
 .hero-content:hover {
@@ -106,8 +110,9 @@ a {
 
 .hero-title {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
 }
 
 .hero-line {
@@ -120,6 +125,7 @@ a {
 .hero-subtitle {
   font-size: 1.3rem;
   font-weight: 300;
+  font-family: 'Inter', sans-serif;
 }
 
 /* ==================== */
@@ -127,6 +133,7 @@ a {
 /* ==================== */
 .mission {
   padding: 56px 24px 24px;
+  font-family: 'Inter', sans-serif;
 }
 
 .mission-inner {
@@ -137,7 +144,7 @@ a {
 
 .mission h2 {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 12px;
 }
 
@@ -166,6 +173,7 @@ a {
   padding: 0 24px;
   border-top: 1px solid rgba(0,0,0,.1);
   padding-top: 18px;
+  font-family: 'Inter', sans-serif;
 }
 
 .gallery-grid {
@@ -199,6 +207,7 @@ a {
   max-width: 900px;
   display: flex;
   justify-content: center;
+  font-family: 'Inter', sans-serif;
 }
 
 .social-media {
@@ -260,7 +269,6 @@ a {
   100% { transform: translateY(0); opacity: 1; }
 }
 
-
 /* ==================== */
 /* 🤝 TRUST / CREDIBILITY SECTION */
 /* ==================== */
@@ -273,7 +281,7 @@ a {
   border-radius: 20px;
   max-width: 950px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -332,8 +340,6 @@ a {
   }
 }
 
-
-
 /* ==================== */
 /* 🧱 FINAL DE PÁGINA (fora do @media) */
 /* ==================== */
@@ -341,7 +347,7 @@ a {
   background-color: #1A1A1A !important;
   color: #f1f1f1;
   padding: 80px 20px 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -359,6 +365,7 @@ a {
 
 .footer-logo {
   text-align: left;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer-logo h2 {
@@ -378,6 +385,7 @@ a {
   flex-direction: column;
   gap: 10px;
   text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer-links a {
@@ -393,6 +401,7 @@ a {
 
 .footer-contact {
   text-align: right;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer-contact p {
